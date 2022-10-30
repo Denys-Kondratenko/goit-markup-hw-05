@@ -67,7 +67,9 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="hero-btn btn" type="button">Замовити послугу</button>
+          <button class="hero-btn btn" data-modal-open type="button">
+            Замовити послугу
+          </button>
         </div>
       </section>
       <section class="advantages">
@@ -76,7 +78,7 @@
           <ul class="advantages-list list">
             <li class="advantages-item">
               <div class="advantages-wrap">
-                <svg class="advantages-icon" weight="70" height="70">
+                <svg class="advantages-icon" width="70" height="70">
                   <use href="./img/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
@@ -88,7 +90,7 @@
             </li>
             <li class="advantages-item">
               <div class="advantages-wrap">
-                <svg class="advantages-icon" weight="70" height="70">
+                <svg class="advantages-icon" width="70" height="70">
                   <use href="./img/icons.svg#icon-clock"></use>
                 </svg>
               </div>
@@ -100,7 +102,7 @@
             </li>
             <li class="advantages-item">
               <div class="advantages-wrap">
-                <svg class="advantages-icon" weight="70" height="70">
+                <svg class="advantages-icon" width="70" height="70">
                   <use href="./img/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
@@ -111,7 +113,7 @@
             </li>
             <li class="advantages-item">
               <div class="advantages-wrap">
-                <svg class="advantages-icon" weight="70" height="70">
+                <svg class="advantages-icon" width="70" height="70">
                   <use href="./img/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
@@ -566,5 +568,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close" data-modal-close>
+          <svg class="modal-close-icon" width="18" height="18">
+            <use href="./img/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
