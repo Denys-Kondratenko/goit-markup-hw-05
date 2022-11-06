@@ -75,7 +75,6 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 2px solid tomato; */
 }
 
 .btn {
@@ -135,9 +134,6 @@ body {
 .navigation-list {
   display: flex;
   gap: 50px;
-}
-
-.navigation-item {
 }
 
 .navigation-link {
@@ -300,9 +296,6 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--secondary-color);
-}
-
-.advantages-text {
 }
 
 /* -----------------------------------Work------------------------------ */
@@ -477,9 +470,6 @@ body {
   margin-right: 70px;
 }
 
-.join-box {
-}
-
 .footer-accent-logo {
   display: inline-block;
   margin-bottom: 20px;
@@ -509,9 +499,6 @@ body {
 .footer-address {
   font-style: normal;
   min-width: 231px;
-}
-
-.address-list {
 }
 
 .address-primary {
